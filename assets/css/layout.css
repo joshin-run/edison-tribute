@@ -1,0 +1,138 @@
+/*-------------------------
+LAYOUT
+-------------------------*/
+
+/* row */
+.row2
+{
+	clear: both;
+	overflow: hidden;
+}
+
+/* row-colors */
+.row--cream { background: #fcfbe3; }
+.row--white { background: #fff; }
+.row--lightgray { background: #f8f8f8; }
+.row--gray { background: #808080; }
+.row--blue { background: #3bb2d0; }
+.row--choco { background: #4E2E28; }
+.row--black { background: #000; }
+.row--dark-gray
+{
+	color: #fff;
+	background: #282e37;
+}
+
+/* row-padding */
+.row--padding-medium
+{
+	padding-top: 2.1875em;
+	padding-bottom: 2.1875em;
+	/* 35px/16px */
+}
+
+.row--padding-wide
+{
+	padding-top: 1.1875em;
+	padding-bottom: 1.1875em;
+	/* 35px/16px */
+}
+
+/* containers */
+.container-narrow,
+.container-medium,
+.container-wide,
+.container-wide--x
+{
+	margin: 0 auto;
+}
+
+.container-wide--x
+{
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.container-narrow { max-width: 34em; }
+.container-medium { max-width: 52em; }
+.container-wide { max-width: 72em; }
+.container-wide--x { max-width: 100em; }
+
+/* columns */
+.col-narrow { margin: 0; }
+.col-narrow--right { margin-bottom: 1.5em; }
+
+/*------------------
+wide
+------------------*/
+
+@media (min-width: 38em)
+{
+	.row--padding-medium
+	{
+		padding-top: 3.8889em;
+		padding-bottom: 3.8889em;
+		/* 70px/18px */
+	}
+
+	.row--padding-wide
+	{
+		padding-top: 3.5556em;
+		padding-bottom: 3.5556em;
+		/* 100px/18px */
+	}
+
+
+
+	/*
+	.container-narrow,
+	.container-medium,
+	.container-wide,
+	.container-wide--x
+	{
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	*/
+
+	.col-narrow,
+	.col-medium,
+	.col-wide { float: left; }
+	.col-narrow--right,
+	.col-wide--right,
+  .col-narrow2--right { float: right; }
+
+	.col-wide
+  {
+    width: 65%;
+    padding: 2em;
+  }
+
+	.col-wide--right
+	{
+		width: 75%;
+		padding: 2em;
+	}
+
+	.col-medium { width: 70%; }
+	.col-medium2 { width: 63%; }
+
+	.col-medium--banner
+	{
+		margin-top: 4em;
+		margin-bottom: 4em;
+	}
+
+	.col-narrow,
+	.col-narrow--right
+	{
+		width: 25%;
+		margin-bottom: 0;
+	}
+
+  .col-narrow2--right
+  {
+    width: 35%;
+    margin-bottom: 0;
+  }
+}

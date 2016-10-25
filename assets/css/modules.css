@@ -1,0 +1,45 @@
+
+/*------------------------
+MODULES
+------------------------*/
+
+/* banner */
+.row--banner
+{
+	background-color: #000;
+	background-image: url("http://res.cloudinary.com/jahmsc/image/upload/v1476454820/edison-banner_tr9r1r.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+@media (min-width: 38em)
+{
+	.row--banner { background-image: url("http://res.cloudinary.com/jahmsc/image/upload/v1476454820/edison-banner_tr9r1r.png"); }
+}
+/* life */
+
+.life__heading
+{
+  font-family: helvetica;
+  color: #003366;
+}
+
+.life__text
+{
+  font-size: 1.255em;
+  font-family: helvetica;
+}
+
+/*------------------------
+WIDE
+------------------------*/
+
+.row--banner
+{
+	background-color: #626e6d;
+	background-image: url(src="http://res.cloudinary.com/jahmsc/image/upload/v1476454820/edison-banner_tr9r1r.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
